@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Login-Playwright", "Login-Playwright\Login-Playwright.csproj", "{474023E4-4441-4C73-9C30-A4AD0432BBC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{474023E4-4441-4C73-9C30-A4AD0432BBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474023E4-4441-4C73-9C30-A4AD0432BBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474023E4-4441-4C73-9C30-A4AD0432BBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474023E4-4441-4C73-9C30-A4AD0432BBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52D40132-FB33-49D3-A706-B97159DE8A41}
+	EndGlobalSection
+EndGlobal
