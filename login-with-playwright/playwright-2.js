@@ -20,7 +20,7 @@ const { chromium } = require('playwright');
   
   await page.fill('form[method="post"] >> input[type="password"]',"123456");  
     
-  await page.click('button');
+  await page.click('form[method="post"] >> input[type="submit"]',{delay:3000});
 
   setTimeout(async() => {
     pageText=await page.innerText('//*[@id="load"]/div')
