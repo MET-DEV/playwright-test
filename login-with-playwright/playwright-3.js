@@ -30,9 +30,10 @@ const { chromium } = require('playwright');
     await page.click('form[action="form.php"] >> input >>nth=5');
     await page.fill('form[action="form.php"] >> input >>nth=5',total.toString());
     await page.click('form[method="post"] >> input[type="submit"]',{delay:2000});
+    pageText=await page.innerText('//*[@id="load"]/div')
     preText=await page.innerText('pre');
     console.log(preText)
-   
+    console.log(pageText)
     await context.close();
     await browser.close();
   }, 7000);
